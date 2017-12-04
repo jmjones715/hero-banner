@@ -14,14 +14,15 @@ html {
 
 .banner {
   position: relative;
-  border-radius: 0 50px 0;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .banner-head {
   padding: 0 1rem;
   position: absolute;
   bottom: 5rem;
-  width: 50em;
+  max-width: 50em;
   font-size: 2rem;
   background-color: rgba(0, 0, 0, .5);
 }
@@ -29,7 +30,7 @@ html {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
-  width: 50em;
+  max-width: 50em;
   font-size: 2rem;
   font-style: italic;
 }
